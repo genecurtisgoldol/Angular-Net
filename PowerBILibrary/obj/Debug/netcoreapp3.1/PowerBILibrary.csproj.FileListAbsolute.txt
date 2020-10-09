@@ -1,0 +1,9 @@
+C:\Source\PowerBI\Angular-Net\PowerBILibrary\bin\Debug\netcoreapp3.1\PowerBILibrary.deps.json
+C:\Source\PowerBI\Angular-Net\PowerBILibrary\bin\Debug\netcoreapp3.1\PowerBILibrary.dll
+C:\Source\PowerBI\Angular-Net\PowerBILibrary\bin\Debug\netcoreapp3.1\PowerBILibrary.pdb
+C:\Source\PowerBI\Angular-Net\PowerBILibrary\obj\Debug\netcoreapp3.1\PowerBILibrary.AssemblyInfoInputs.cache
+C:\Source\PowerBI\Angular-Net\PowerBILibrary\obj\Debug\netcoreapp3.1\PowerBILibrary.AssemblyInfo.cs
+C:\Source\PowerBI\Angular-Net\PowerBILibrary\obj\Debug\netcoreapp3.1\PowerBILibrary.dll
+C:\Source\PowerBI\Angular-Net\PowerBILibrary\obj\Debug\netcoreapp3.1\PowerBILibrary.pdb
+C:\Source\PowerBI\Angular-Net\PowerBILibrary\obj\Debug\netcoreapp3.1\PowerBILibrary.csprojAssemblyReference.cache
+C:\Source\PowerBI\Angular-Net\PowerBILibrary\obj\Debug\netcoreapp3.1\PowerBILibrary.csproj.CoreCompileInputs.cache
