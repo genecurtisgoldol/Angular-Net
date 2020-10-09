@@ -1,0 +1,119 @@
+/* You can add global styles to this file, and also import other style files */
+@import "../../../../node_modules/@angular/material/theming";
+
+@include mat-core();
+
+/* For use in src/lib/core/theming/_palette.scss */
+$sb-primary: (
+  50: #e3e9ef,
+  100: #b9c8d7,
+  200: #8ba4bc,
+  300: #5c80a1,
+  400: #39648c,
+  500: #164978,
+  600: #134270,
+  700: #103965,
+  800: #0c315b,
+  900: #062148,
+  A100: #7daaff,
+  A200: #4a88ff,
+  A400: #1767ff,
+  A700: #0057fd,
+  contrast: (
+    50: #000000,
+    100: #000000,
+    200: #000000,
+    300: #ffffff,
+    400: #ffffff,
+    500: #ffffff,
+    600: #ffffff,
+    700: #ffffff,
+    800: #ffffff,
+    900: #ffffff,
+    A100: #000000,
+    A200: #000000,
+    A400: #ffffff,
+    A700: #ffffff
+  )
+);
+
+$sb-accent: (
+  50: #ffede0,
+  100: #ffd1b3,
+  200: #ffb380,
+  300: #ff954d,
+  400: #ff7e26,
+  500: #ff6700,
+  600: #ff5f00,
+  700: #ff5400,
+  800: #ff4a00,
+  900: #ff3900,
+  A100: #ffffff,
+  A200: #fff4f2,
+  A400: #ffcabf,
+  A700: #ffb4a6,
+  contrast: (
+    50: #000000,
+    100: #000000,
+    200: #000000,
+    300: #000000,
+    400: #000000,
+    500: #000000,
+    600: #000000,
+    700: #ffffff,
+    800: #ffffff,
+    900: #ffffff,
+    A100: #000000,
+    A200: #000000,
+    A400: #000000,
+    A700: #000000
+  )
+);
+
+$sb-warning: (
+  50: #f0f2f6,
+  100: #dae0e7,
+  200: #c1cbd8,
+  300: #a8b6c8,
+  400: #95a6bc,
+  500: #8296b0,
+  600: #7a8ea9,
+  700: #6f83a0,
+  800: #657997,
+  900: #526887,
+  A100: #ebf3ff,
+  A200: #b8d5ff,
+  A400: #85b6ff,
+  A700: #6ca7ff,
+  contrast: (
+    50: #000000,
+    100: #000000,
+    200: #000000,
+    300: #000000,
+    400: #000000,
+    500: #000000,
+    600: #000000,
+    700: #000000,
+    800: #ffffff,
+    900: #ffffff,
+    A100: #000000,
+    A200: #000000,
+    A400: #000000,
+    A700: #000000
+  )
+);
+
+body,
+html {
+  margin: 0 auto;
+  height: 100% !important;
+}
+
+// Define the palettes for your theme using the Material Design palettes available in palette.scss
+// (imported above). For each palette, you can optionally specify a default, lighter, and darker
+// hue.
+$sb-app-primary: mat-palette($sb-primary);
+$sb-app-accent: mat-palette($sb-accent);
+$sb-app-warn: mat-palette($sb-warning);
+$sb-app-theme: mat-light-theme($sb-app-primary, $sb-app-accent, $sb-app-warn);
+@include angular-material-theme($sb-app-theme);

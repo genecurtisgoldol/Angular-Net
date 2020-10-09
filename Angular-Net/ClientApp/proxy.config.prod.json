@@ -1,0 +1,9 @@
+{
+  "/api": {
+      "target": "https://api.sportsbiz.com",
+      "pathRewrite": {
+        "^api": ""
+      },
+      "changeOrigin": true
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "/api": {
+      "target": "https://api.mock.sportsbiz.com",
+      "pathRewrite": {
+        "^api": ""
+      },
+      "changeOrigin": true
+  }
+}
